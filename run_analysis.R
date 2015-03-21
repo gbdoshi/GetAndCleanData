@@ -111,5 +111,5 @@ print(class(tidy_data))
 ## Write to file 
 ########################################################
 print("Write tidy data to a file 'tidydata.txt")
-write.table(tidy_data, "tidydata.txt")
+write.table(tidy_data, "tidydata.txt", row.names = FALSE)
 
